@@ -9,13 +9,17 @@ import Form from './components/snapshot2'
 import Counter from './components/queueUpdates'
 import RequestTracker from './qcomps/shoppingCart'
 import Scoreboard from './qcomps/updObjectsForm'
+import Artists from './components/artistsArr'
+import ArtistList from './qcomps/artistsRemoveArr'
+import ArrObj from './qcomps/arrObj'
 
 export default function Home() {
   return (
     <div className={styles.main}>
         {/* <Profile /> */}
         {/* <PersonData/> */}
-        <Scoreboard />
+        {/* <Scoreboard /> */}
+        <ArrObj />
     </div>
   )
 }
